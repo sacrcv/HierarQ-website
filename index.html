@@ -140,13 +140,14 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-half">
+        <h2 class="title is-3">Architecture</h2>
     </div> </div>
     <section class="hero is-small">
       <div class="hero-body">
         <div class="container">
-          <div class="columns is-centered"></div>
+          <div class="columns is-centered has-text-justified"></div>
       <img src="./static/images/arch-final.jpg" width="80%"/> 
-      <h2 class="subtitle has-text-centered">
+      <!-- <h2 class="subtitle has-text-centered"> -->
         <!-- <div class="column is-half"></div>
         <h2 class="hero-body has-text-centered"></h2> -->
         (Left) Overview of our framework that sequentially processes video frames, modulating task-relevant entity and scene features with a two-stream feature modulator. The proposed HierarQ (Hierarchical Q-Former) with dedicated memory banks integrates these features, producing a refined understanding that is passed to an LLM for the final response. (Right) HierarQ models the hierarchical relationship between then Entity-level Q-Former and Scene-level Q-Former, using dedicated memory banks to integrate short-term details with long-term context for enhanced video understanding.
@@ -157,7 +158,7 @@
     </section>
 
 <!-- Paper Quantitative -->
-<section class="section hero">
+<section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-half">
@@ -165,14 +166,14 @@
       </div>
     </div>
 
-    <img src="./static/images/lvu-brf.jpg" height="100%" width="100%"/> 
+    <img src="./static/images/lvu-brf.jpg" width="100%"/> 
       <!-- <h2 class="subtitle has-text-centered"> -->
-      <h2 class="hero-body has-text-centered"></h2>
+      <h2 class="hero-body has-text-justified"></h2>
         Medium to long video understanding performance on LVU (Left) and Breakfast, COIN (Right).
       </h2>
-      <img src="./static/images/msr-mc.jpg" height="100%" width="100%"/> 
+      <img src="./static/images/msr-mc.jpg" width="100%"/> 
       <!-- <h2 class="subtitle has-text-centered"> -->
-      <h2 class="hero-body has-text-centered"></h2>
+      <h2 class="hero-body has-text-justified"></h2>
        Long video question answering on MovieChat-1K (Left). Short video question answering performance on MSRVTT-QA (denoted by MSR-QA), MSVD-QA and ActivityNet-QA (denoted by ANet-QA) (Right).
       </h2>
     <!-- <section class="hero is-small">
@@ -231,7 +232,7 @@
 
 
 <!-- Paper Qualitative -->
-<section class="section hero is-light">
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
         <h2 class="title is-3">Qualitative Results</h2>
